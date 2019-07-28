@@ -1,0 +1,21 @@
+{
+	"name": "gennadyc/comment_service",
+	"description": "client for comment service",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Gennady Chursin",
+			"email": "gena_chursin1995@mail.ru",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"curl/curl": "^2.0",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"script\\": "script\"
+		}
+	}
+}
