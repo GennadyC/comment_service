@@ -11,11 +11,17 @@
 	],
 	"require": {
 		"curl/curl": "^2.0",
-		"ext-curl": "*"
+		"ext-curl": "*",
+		"silex/silex": "^2.2",
+        "symfony/process": "^3.3",
+		"symfony/http-foundation": "^4.3"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^6.5"
 	},
 	"autoload": {
 		"psr-4": {
-			"script\\": "script/"
+			"TestDrom\\": "scripts/"
 		}
 	}
 }
